@@ -1,0 +1,26 @@
+{
+  "url": "http://ec2-3-90-34-22.compute-1.amazonaws.com:2368/",
+  "server": {
+    "port": 2368,
+    "host": "0.0.0.0"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+      "filename": "/home/ubuntu/ghost2/content/data/ghost-local.db"
+    }
+  },
+  "mail": {
+    "transport": "Direct"
+  },
+  "logging": {
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  },
+  "process": "local",
+  "paths": {
+    "contentPath": "/home/ubuntu/ghost2/content"
+  }
+}
